@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="message">Player Ayo Turn</h1>
+      <div class="players">
+        <div id="player1">
+          <h1>
+            Ayo Win:
+            <span id="player1Win">0</span>
+          </h1>
+          <h1>
+            Ayo Loss:
+            <span id="player1loss">0</span>
+          </h1>
+          <h1>
+            Ayo Score:
+            <span id="player1Scoreboard">0</span>
+          </h1>
+          <div id="player1Rolldice" class="dice active">-</div>
+        </div>
+        <div id="player2">
+          <h1>
+            Sam Win:
+            <span id="player2Win">0</span>
+          </h1>
+          <h1>
+            Sam Loss:
+            <span id="player2loss">0</span>
+          </h1>
+          <h1>
+            Sam Score:
+            <span id="player2Scoreboard">0</span>
+          </h1>
+          <div id="player2Rolldice" class="dice">-</div>
+        </div>
+      </div>
+      <button id="rollBtn">Roll Dice 🎲</button>
+      <button id="resetBtn">Reset Game 🔁</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
